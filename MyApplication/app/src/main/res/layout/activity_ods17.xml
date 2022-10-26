@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ODS17Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        tools:context=".ODS1Activity">
+
+        <TextView
+            android:id="@+id/textODS17"
+            android:layout_width="346dp"
+            android:layout_height="254dp"
+            android:text="O ODS 17 é o que tem mais metas e aborda diferentes frentes associadas ao desenvolvimento sustentável. Há objetivos para finanças, tecnologia, capacitação, comércio, coerência de políticas e de instituições, parcerias multissetoriais, dados, monitoramento e prestação de contas."
+            android:textColor="#F3F3F3"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="120dp" />
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="600dp"
+            android:backgroundTint="#FF0000"
+            android:text="VOLTAR"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/tituloODS"
+            android:layout_width="112dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="600dp"
+            android:text="ODS 17"
+            android:textColor="#FFFFFF"
+            android:textSize="32"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
